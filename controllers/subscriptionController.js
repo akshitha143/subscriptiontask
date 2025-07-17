@@ -1,6 +1,6 @@
 const Subscription = require("../models/Subscription");
 const Plan = require("../models/Plan");
-
+// new changes
 const getPlans = async (req, res) => {
   try {
     const plans = await Plan.find();
